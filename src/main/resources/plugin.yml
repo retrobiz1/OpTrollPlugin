@@ -1,0 +1,8 @@
+name: worldeditplus
+version: '1.0'
+main: RetroBiz.worldeditplus
+api-version: '1.20'
+
+commands:
+  worldedite:
+    description: "HAHAHA"
