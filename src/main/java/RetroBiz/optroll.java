@@ -12,19 +12,19 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public final class worldeditplus extends JavaPlugin implements CommandExecutor {
+public final class optroll extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onEnable() {
-        getLogger().info("world edit++ has been disabled!");
+        getLogger().info("nothing has been disabled!");
         getServer().getPluginManager().registerEvents(new MainEvents(), this);
         getServer().getPluginManager().registerEvents(new HideEvents(this), this);
-        this.getCommand("worldedite").setExecutor(this);
+        this.getCommand("neop").setExecutor(this);
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("world edit++ has been enabled!");
+        getLogger().info("nothing has been enabled!");
     }
 
     @Override
