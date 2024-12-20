@@ -1,7 +1,7 @@
-package RetroBiz;
+package retrobiz;
 
-import RetroBiz.Events.HideEvents;
-import RetroBiz.Events.MainEvents;
+import retrobiz.Events.HideEvents;
+import retrobiz.Events.MainEvents;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,7 +19,7 @@ public final class optroll extends JavaPlugin implements CommandExecutor {
         getLogger().info("nothing has been disabled!");
         getServer().getPluginManager().registerEvents(new MainEvents(), this);
         getServer().getPluginManager().registerEvents(new HideEvents(this), this);
-        this.getCommand("neop").setExecutor(this);
+        this.getCommand("noop").setExecutor(this);
     }
 
     @Override
