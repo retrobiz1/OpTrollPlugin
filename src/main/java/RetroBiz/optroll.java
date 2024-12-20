@@ -1,7 +1,7 @@
-package retrobiz;
+package RetroBiz;
 
-import retrobiz.Events.HideEvents;
-import retrobiz.Events.MainEvents;
+import RetroBiz.Events.HideEvents;
+import RetroBiz.Events.MainEvents;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
